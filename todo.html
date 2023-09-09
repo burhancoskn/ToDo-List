@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap'>
+  <link rel="stylesheet" href="assets/css/stylee.css">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+    <div class="container">
+        
+
+        <div class="row d-flex justify-content-center container">
+          <div class="col-md-12">
+            <div class="message" id="message" style="display: none;"></div>
+            <div class="card-hover-shadow-2x mb-3 card">
+              <div class="card-header-tab card-header d-flex justify-content-between align-items-center">
+                <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                  <i class="fa fa-tasks"></i>&nbsp;Task Lists
+                </div>
+                <div class="clear-button-container">
+                  <button class="clear btn ">
+                    <i class="fa fa-trash"></i> Clear
+                  </button>
+                </div>
+          </div>
+          <div class="scroll-area-sm">
+            <div style="position: static;" class="ps ps--active-y">
+              <div class="ps-content">
+                <ul class="added_tasks list-group list-group-flush"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="addtask">
+            <hr class="separator">
+
+            <input type="text" id="inputTask" placeholder="Enter a task...">
+            
+            <button>Add task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/script/script.js"></script>
+  </div>
+</body>
+
+</html>
